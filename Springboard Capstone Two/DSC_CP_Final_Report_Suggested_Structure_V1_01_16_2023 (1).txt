@@ -1,0 +1,130 @@
+Suggested structure for DSC CP Final Reports
+a.sanchez.824@gmail.com
+V1: 01/23/2023
+
+I recommend that you structure your CP final report
+documents according to the following sections.
+
+(0) Cover Page:
+
+- "Springboard--DSC"
+- "Capstone Project X" (X = 2,3)
+- [CP Title]
+- "By" [Author]
+- [Month], [Year]
+
+(1) Introduction:
+
+Briefly define the problem, intended stakeholders,
+and data science results (very briefly).
+
+Think of this section as the "Executive Summary"
+of your report.
+
+Make sure to mention that implementation
+details can be found in the notebooks you
+developed, and include a link to the root
+folder in your GitHub repository that contains
+all your project deliverables.
+
+Therefore, you do not need to inclue Python
+code in this report--unless you implemented
+some remarkable algorithm!
+
+(2) Approach
+
+(2.1) Data Acquisition and Wrangling
+
+Describe what you did to get the raw
+datasets you used, and how you got them
+ready for further analysis.
+
+(2.2) Storytelling and Inferential Statistics
+
+Show a small subset of your data story, and of
+of your applications of inferential statistics,
+including associated visualizations and 
+appropriate commentaries.
+
+(2.3) Baseline Modeling
+
+Discuss the model/s you chose to build a baseline,
+including a summary of the obtained results. 
+Leave the comparative analysis for section (3).
+
+(2.4) Extended Modeling
+
+Discuss what motivated the implementation of 
+other models, hopefully more advanced, including 
+a summary of the obtained results. Leave the 
+comparative analysis for section (3). 
+
+(3) Findings
+
+Present a summary of all your results in
+a table like the following:
+
+
+		    PM1	PM2	PM3 ...
+------------------------------------------------
+Model 1		X	X	X
+------------------------------------------------
+Model 2		X 	X	X
+------------------------------------------------
+Model 3		X	X	X
+...
+
+
+Where 'PM' stands for 'Performance Metric'.
+
+Present a discussion of these results with two
+goals in mind:
+
+* To highlight the relative merits (or lack thereof)
+of each model. Including, if appropriate, the
+identification of the "best model".
+
+* To connect this analysis with the original
+business problem. In other words, to discuss
+the implications of these results in the context
+of the original business problem.
+
+
+(4) Conclusions and Future Work
+
+Your conclusions tie together the original
+business problem, the data science problems
+you decided to model the former with, and the
+results you obtained.
+
+Future work can be presented as a bulleted
+list of approaches you would like to have tried
+given more time (and resources--when applicable).
+
+(5) Recommendations for the Clients
+
+Include between 1-3 concrete recommendations on how 
+the intended clients can use the results of
+your Capstone Project, in alignment with the
+underlying business needs.
+
+This is the way to "close the loop" between
+the original business problem, the data
+science problems you decided to pursue, and
+the results you obtained.
+
+In "real-life" projects, this is where us data
+scientists communicate the results to our clients
+in a way that they suggest (or prescribe, in some
+cases) concrete business interventions.
+
+I would recommend that you present your recommendations
+as a bulleted list.
+
+(6) Consulted Resources
+
+This is just a list of articles, packages,
+books, and any other resource you used in
+this project.
+
+
